@@ -1,0 +1,195 @@
+* {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* ****************************************** NAVBAR COMPONENT
+********************* */
+
+.navbar {
+  min-height: 80px;
+  background-color: black;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+
+.brand-Logo {
+  font-size: 40px;
+}
+
+
+/* ****************************************** PAGES
+********** */
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 60px;
+
+  
+}
+
+.header {
+  text-align: center;
+  
+}
+
+
+/* ****************************************PRODUCT INFO
+******************* */
+
+.products {
+  list-style: none;
+  margin-top: 10%;
+  
+}
+
+.product-image {
+  height: 230px;
+  width: 200px;
+}
+
+.product-image:hover {
+  opacity: 60%;
+
+}
+
+.product-card {
+  border: 2px rgb(0, 0, 0, .3) solid;
+  margin-bottom: 15px;
+  box-shadow: 0 0 3px #DCAE63, 0 0 5px #DCAE63 ;
+}
+
+.back-button {
+  text-align: left;
+}
+
+.single-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
+
+.banner-container {
+  border: 2px solid black;
+  height: 440px;
+  background-color: #DCAE63;
+}
+
+.banner {
+  font-family: 'Homemade Apple', cursive;
+}
+
+/* **************************************** HOME COMPONENT
+******************* */
+.home-top-row {
+  border: 2px solid black;
+  height: 440px;
+  background-color: #DCAE63;
+}
+
+.home-top-row-header {
+  text-align: center;
+  font-size:50px;
+  margin-top: 150px;
+  color: white;
+}
+
+.home-top-header {
+  font-family: 'Homemade Apple', cursive;
+}
+
+.home-header-photo {
+  height: 436px;
+  opacity: 80%;
+}
+
+.home-second-row {
+  background-color: black;
+  color: white;
+}
+
+.home-image-left {
+  padding: 20px;
+  opacity: 80%;
+}
+
+.skin-header{
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 30px;
+}
+
+.skin-header-container {
+  justify-content: center;
+}
+
+/******************************************LOGIN COMPONENT
+*******************  */
+.loginContainer {
+  width: 50%;
+  margin-left: 25%;
+  padding: 10%;
+  
+}
+
+.login-wrapper {
+  background-color: #DCAE63;
+  width: 100vw;
+  height: 100vh;
+}
+
+.log-in-button {
+  margin-left: 15px;
+}
+
+/* ****************************************CART COMPONENT
+******************** */
+
+.cart-header-content {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.cart-content {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.cart-right {
+  border-left: 2px black solid;
+} 
+
+.cart-product-image {
+  height: 131px;;
+  width: 129px;
+}
+
+.page-footer {
+  color: white;
+  text-align: center;
+}
